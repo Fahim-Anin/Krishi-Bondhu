@@ -1,0 +1,114 @@
+.invoice-page {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.invoice-cards {
+  display: flex;
+  flex-direction: row; /* Arrange cards in a row */
+  justify-content: space-around; /* Add spacing between cards */
+  width: 80%; /* Maintain the width for the right card */
+
+}
+
+.right-card {
+  width: 50%; /* Maintain the width for the right card */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-right:20px; /* Add margin to create a gap */
+}
+.right-card, .left-card {
+  flex: 1; /* Make cards equal width */
+  padding:10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 50px 50px; /* Add margin for spacing between cards */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.image-name {
+  margin-left:100px;
+  font-weight: bold;
+}
+
+.price-details {
+  display: flex;
+  flex-direction: column;
+}
+.price-details > div {
+  flex: 2;
+}
+
+.price-details > img {
+  flex: 1;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  text-align: right;
+}
+
+.left-card {
+  width: 20%; /* Maintain the width for the left card */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-left: 10px; /* Remove default margin */
+}
+
+.input-container {
+  margin-top: 10px;
+}
+input:focus {
+  outline: none;
+  border-color: #000;
+}
+.image-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.sign-in-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-in-options img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.sign-in-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
